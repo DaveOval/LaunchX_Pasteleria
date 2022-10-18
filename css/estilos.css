@@ -90,7 +90,8 @@ header a:hover{
     background-color: #4b1d33;
 }
 #menuSabores{
-    background-color: #e1d9e0;
+    background-color: #e1d9e0; 
+    text-align: center;
 }
 #menuSabores .container{
     padding: 150px 12px;
@@ -108,7 +109,7 @@ header a:hover{
     color: rgb(201, 210, 213);
     padding: 50px;
     margin: 30px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .carta:first-child {
     background-image: linear-gradient(0deg,
