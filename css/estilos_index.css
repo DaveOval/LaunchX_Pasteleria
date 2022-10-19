@@ -14,7 +14,7 @@ ul {list-style: none;}
 li {font-size: 1.25em;}
 a { 
     text-decoration: none;
-    color: #e1d9df;
+    color: #ffffff;
 } 
 
 button{
@@ -48,6 +48,9 @@ header .logo{
     font-weight: bold;
     font-size: 1.6em;
 }
+.logo:hover{
+    color: rgb(156, 173, 179);
+}
 header .container{
     display: flex;
     flex-direction: column;
@@ -63,7 +66,7 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: rgb(201,210,213);
+    color: rgb(255, 255, 255);
 }
 header a:hover{
     color: rgb(156, 173, 179);
@@ -100,7 +103,9 @@ header a:hover{
 
 }
 #menuSabores .container{
-    padding: 200px 12px;
+    padding: 0px 12px;
+    padding-top: 100px;
+    padding-bottom:  10px;
 }
 #menuSabores h2{
     margin-top: 0;
@@ -151,12 +156,13 @@ header a:hover{
     background-color: #e1d9e0;
     height: 150vh;
     padding-top: 0px;
+    padding-bottom: 100px;
 }
 #envios p{
     padding: 2px 100px;
 }
 footer .container{
-    height: 50px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
