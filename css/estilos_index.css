@@ -12,6 +12,10 @@ h3 { font-size: 2.5em;}
 p {font-size: 1.25em;}
 ul {list-style: none;}
 li {font-size: 1.25em;}
+a { 
+    text-decoration: none;
+    color: #e1d9df;
+} 
 
 button{
     font-size: 1.5em;
@@ -145,12 +149,11 @@ header a:hover{
     align-items: center;
     text-align: center;
     background-color: #e1d9e0;
-    color: ;
     height: 150vh;
     padding-top: 0px;
 }
 #envios p{
-    padding: 2px 50px;
+    padding: 2px 100px;
 }
 footer .container{
     height: 50px;
@@ -191,7 +194,7 @@ footer .container{
         align-items: center;
     }
     #Pasteles h2{
-        margin-top: 200px;
+        margin-top: 250px;
     }
     #Pasteles .img-container{
         background-image: url("../img/pasteles.jpg");
