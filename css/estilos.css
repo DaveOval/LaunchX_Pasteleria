@@ -85,13 +85,14 @@ header a:hover{
 
 #Pasteles .container{
     text-align: center;
-    padding: 200px 12px;
+    padding: 25px 12px;
     color: rgb(201, 210, 213);
     background-color: #4b1d33;
 }
 #menuSabores{
     background-color: #e1d9e0; 
     text-align: center;
+
 }
 #menuSabores .container{
     padding: 150px 12px;
@@ -134,4 +135,19 @@ header a:hover{
 #menuSabores .container {
     text-align: center;
     padding: 200px 12px;
+}
+
+#envios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e1d9e0;
+    color: ;
+    height: 150vh;
+    padding-top: 0px;
+}
+#envios p{
+    padding: 2px 50px;
 }
