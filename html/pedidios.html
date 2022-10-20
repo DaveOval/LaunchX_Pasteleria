@@ -31,13 +31,32 @@
     <section id="menu">
         <div class="container">
             <h2>Arma tu pastel.</h2>
+            <hr>
+            <h2>Elige el sabor del pastel</h2>
             <div class="saborPastel"> 
                 <div class="carta">
                     <h3>Fresa</h3>
+                    <h3>499.<sup>00</sup>MXN</h3>
                     <p>Sabor a deliciosa fresa.</p>
-                    <input type="checkbox">
+                </div>
+                <div class="carta">
+                    <h3>Chocolate</h3>
+                    <h3>500.<sup>00</sup>MXN</h3>
+                    <p>Sabor a chocolate puro</p>
+                </div>
+                <div class="carta">
+                    <h3>Vainilla</h3>
+                    <h3>499.<sup>00</sup>MXN</h3>
+                    <p>Sabor a chocolate puro</p>
                 </div>
             </div>
+            <label for="saborPastel">Sabor del pastel:</label>
+            <select id="saborPastel" name="saborPastel">
+                <datalist id="saborPastel">
+                    <option value="">Fresa</option>
+                    <option value="">Chocolate</option>
+                    <option value="">Vainilla</option>
+            </select>
         </div>
     </section>
 </body>

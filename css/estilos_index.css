@@ -40,7 +40,7 @@ button:hover{
 
 header {
     background-color: #4b1d33;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 header .logo{
     margin: 0;
@@ -49,7 +49,7 @@ header .logo{
     font-size: 1.6em;
 }
 .logo:hover{
-    color: rgb(156, 173, 179);
+    color: rgb(156,173,179);
 }
 header .container{
     display: flex;
@@ -79,7 +79,7 @@ header a:hover{
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    color: rgb(201, 210, 213);
+    color: rgb(255, 255, 255);
     background-image:linear-gradient(
         0deg,
             rgba(0, 0, 0, 0.5),
@@ -94,7 +94,7 @@ header a:hover{
 #Pasteles .container{
     text-align: center;
     padding: 200px 12px;
-    color: rgb(201, 210, 213);
+    color: rgb(255, 255, 255);
     background-color: #4b1d33;
 }
 #menuSabores{
