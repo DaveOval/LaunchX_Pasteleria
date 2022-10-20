@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    scroll-padding: 95px;
+    scroll-padding: 90px;
     background-color:#4b1d33;
 }
 body{
@@ -98,7 +98,7 @@ header a:hover{
 
 #Pasteles .container{
     text-align: center;
-    padding: 100px 12px;
+    padding: 200px 12px;
     color: rgb(255, 255, 255);
     background-color: #4b1d33;
 }
@@ -109,6 +109,8 @@ header a:hover{
 }
 #menuSabores .container{
     padding: 0px 12px;
+    padding-top: 100px;
+    padding-bottom:  10px;
 }
 #menuSabores h2{
     margin-top: 0;
@@ -147,7 +149,8 @@ header a:hover{
 
 #menuSabores .container {
     text-align: center;
-    padding: 200px 12px;
+    padding: 340px 12px;
+    padding-top: 50px;
 }
 
 #envios {
