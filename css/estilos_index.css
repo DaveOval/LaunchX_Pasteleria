@@ -110,7 +110,6 @@ header a:hover{
 #menuSabores .container{
     padding: 0px 12px;
     padding-top: 100px;
-    padding-bottom:  10px;
 }
 #menuSabores h2{
     margin-top: 0;
@@ -149,7 +148,7 @@ header a:hover{
 
 #menuSabores .container {
     text-align: center;
-    padding: 340px 12px;
+    padding: 100px 12px;
     padding-top: 50px;
 }
 
@@ -160,9 +159,8 @@ header a:hover{
     align-items: center;
     text-align: center;
     background-color: #e1d9e0;
-    height: 150vh;
-    padding-top: 0px;
-    padding-bottom: 300px;
+    height: auto;
+    /*padding-bottom: 300px; */
 }
 #envios h3 {
     font-size: larger;
@@ -180,7 +178,7 @@ header a:hover{
     margin-bottom: 100px;
 }
 footer .container{
-    height: 100px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
