@@ -115,7 +115,7 @@
             <label for="sabor2">Sabor combinado:</label><br><br>
             <select id="sabor2" name="saborPastel">
                 <datalist id="sabor2">
-                    <option value="sinCombinacion">Sin</option>
+                    <option value="sinCombinacion">Sin combinar</option>
                     <option value="fresa">Fresa</option>
                     <option value="chocolate">Chocolate</option>
                     <option value="vainilla">Vainilla</option>
@@ -129,7 +129,7 @@
             
             <h3>Rellena los siguientes datos para completar tu orden</h3>
             <label class="input"label for="name">Nombre(s)</label><br>
-            <input type="text" id="name" name="name"><br><br>
+            <input type="text" id="name" name="name" required><br><br>
 
             <label label for="name2">Apellido(s)</label><br>
             <input type="text" id="name2" name="name2"><br><br>
@@ -189,14 +189,15 @@
             <label for="paqueteria">Elige la paqueteria</label><br><br>
             <select id="paqueteria" name="paqueteria">
                 <datalist id="paqueteria">
-                    <option value="UBER">UBER</option>
-                    <option value="DIDI">DIDI</option>
+                    <option value="UBER">UBER (solo GDL)</option>
+                    <option value="DIDI">DIDI (solo GDL)</option>
+                    <option value="RAPPI">RAPPI (solo GDL)</option>
                     <option value="DHL">DHL</option>
                     <option value="FEDEX">FEDEX</option>
                     <option value="ESTAFETA">ESTAFETA</option>
 </select><br><br><br>
         <input type="reset"><br><br>
-        <input type="submit"><br>
+        <input type="submit" onclick="alert('Si completaste los datos correctamente, se te enviaron los datos al correo para proceder con el pago del pedido');"><br>
     
     </div>   
     </section>
