@@ -162,7 +162,7 @@ header a:hover{
     background-color: #e1d9e0;
     height: 150vh;
     padding-top: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 300px;
 }
 #envios h3 {
     font-size: larger;
@@ -180,7 +180,7 @@ header a:hover{
     margin-bottom: 100px;
 }
 footer .container{
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
