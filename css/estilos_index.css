@@ -9,13 +9,17 @@ body{
 h1 { font-size: 3.5em;}
 h2 { font-size: 2.7em;}
 h3 { font-size: 2.5em;}
-p {font-size: 1.25em;}
+p {font-size: 2.0em;}
 ul {list-style: none;}
 li {font-size: 1.25em;}
 a { 
     text-decoration: none;
     color: #ffffff;
 } 
+hr{
+    background-color: #341021;
+    padding: 1px;
+}
 
 button{
     font-size: 1.5em;
@@ -158,8 +162,19 @@ header a:hover{
     padding-top: 0px;
     padding-bottom: 100px;
 }
+#envios h3 {
+    font-size: larger;
+    font-weight: lighter;
+}
 #envios p{
     padding: 2px 100px;
+}
+#envios .linkmap{
+    background-color: #341021;
+}
+
+#envios button{
+    color: rgb(255, 255, 255);
 }
 footer .container{
     height: 80px;
