@@ -13,9 +13,9 @@
         <div class="container">
             <p class="logo"><a href="../index.html">Niza</a></p>
             <nav>
-                <a href="#menuSabores">Menu.</a>
-                <a href="#envios">Envios.</a>
-                <a href="#sucursales">Ubicaciones.</a>
+                <a href="#menu">Sabores</a>
+                <a href="#menuAdorno">Adornos</a>
+                <a href="#menuSabor2">Sabor secundario</a>
             </nav>
         </div>
     </header>
@@ -26,25 +26,25 @@
         <h2>Aqui puedes perzonalizar tu pastel.</h2>
         <button><a href="#menu">Elegir</a></button>
     </section>
-
-    <!--hacer pedido-->
+<form id="formulario">
+    <!--Seleccion de sabor de pastel-->
     <section id="menu">
         <div class="container">
             <h2>Elige el sabor del pastel</h2>
             <div class="saborPastel"> 
                 <div class="carta">
                     <h3>Fresa</h3>
-                    <h3>499.<sup>00</sup>MXN</h3>
+                    <h3>$499.<sup>00</sup>MXN</h3>
                     <p>Sabor a deliciosa fresa.</p>
                 </div>
                 <div class="carta">
                     <h3>Chocolate</h3>
-                    <h3>500.<sup>00</sup>MXN</h3>
+                    <h3>$500.<sup>00</sup>MXN</h3>
                     <p>Sabor a chocolate puro</p>
                 </div>
                 <div class="carta">
                     <h3>Vainilla</h3>
-                    <h3>499.<sup>00</sup>MXN</h3>
+                    <h3>$499.<sup>00</sup>MXN</h3>
                     <p>Sabor a chocolate puro</p>
                 </div>
             </div>
@@ -57,5 +57,155 @@
             </select>
         </div>
     </section>
+   
+
+    <!--Seleccion de adorno para pastel-->
+    <section id="menuAdorno">
+        <div class="container">
+            <h2>Elige el adorno para el pastel</h2>
+            <div class="adornoPastel">
+                <div class="carta2">
+                    <h3>Floral</h3>
+                    <h3>$150.<sup>00</sup>MXN</h3>
+                    <p>Sabor a deliciosa fresa.</p>
+                </div>
+                <div class="carta2">
+                    <h3>Drip</h3>
+                    <h3>$200.<sup>00</sup>MXN</h3>
+                    <p>Sabor a chocolate puro</p>
+                </div>
+                <div class="carta2">
+                    <h3>3D</h3>
+                    <h3>$399.<sup>00</sup>MXN</h3>
+                    <p>Sabor a chocolate puro</p>
+                </div>
+            </div>
+            <label for="saborPastel">Adorno:</label><br><br>
+            <select id="saborPastel" name="saborPastel">
+                <datalist id="saborPastel">
+                    <option value="ninguno">Ninguno</option>
+                    <option value="flora">Floral</option>
+                    <option value="drip">Drip</option>
+                    <option value="3d">3D</option>
+            </select>
+        </div>
+    </section>
+
+    <!--Combinar pastel-->
+    <section id="menuSabor2">
+        <div class="container">
+            <h2>Combina el sabor del pastel</h2>
+            <div class="sabor2">
+                <div class="carta3">
+                    <h3>Fresa</h3>
+                    <h3>$100.<sup>00</sup>MXN</h3>
+                    <p>Sabor a deliciosa fresa.</p>
+                </div>
+                <div class="carta3">
+                    <h3>Chocolate</h3>
+                    <h3>$100.<sup>00</sup>MXN</h3>
+                    <p>Sabor a chocolate puro</p>
+                </div>
+                <div class="carta3">
+                    <h3>Vainilla</h3>
+                    <h3>$100.<sup>00</sup>MXN</h3>
+                    <p>Sabor a chocolate puro</p>
+                </div>
+            </div>
+            <label for="sabor2">Sabor combinado:</label><br><br>
+            <select id="sabor2" name="saborPastel">
+                <datalist id="sabor2">
+                    <option value="sinCombinacion">Sin</option>
+                    <option value="fresa">Fresa</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="vainilla">Vainilla</option>
+            </select>
+        </div>
+    </section>
+
+    <!--Formulario para pedidos-->
+    <section id="formularioEnvios">
+        <div class="container">
+            
+            <h3>Rellena los siguientes datos para completar tu orden</h3>
+            <label class="input"label for="name">Nombre(s)</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label label for="name2">Apellido(s)</label><br>
+            <input type="text" id="name2" name="name2"><br><br>
+
+            <label for="tel1">Teléfono</label><br>
+            <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email"  required><br><br>
+
+            <label for="estado">Elige tu estado</label><br>
+            <input list="estado">
+            <datalist id="estado">
+                <option value="Aguscalientes">
+                <option value="Baja california">
+                <option value="Baja california Sur">
+                <option value="Campeche">
+                <option value="Chiapas">
+                <option value="Chihuahua">
+                <option value="Coahuila">
+                <option value="Colima">
+                <option value="CDMX">
+                <option value="Durango">
+                <option value="Estado de Mexico">
+                <option value="Guanajuato">
+                <option value="Guerrero">
+                <option value="Hidalgo">
+                <option value="Jalisco">
+                <option value="Michoacan">
+                <option value="Morelos">
+                <option value="Nayarit">
+                <option value="Nuevo Leon">
+                <option value="Oaxaca">
+                <option value="Puebla">
+                <option value="Queretaro">
+                <option value="Quintana Roo">
+                <option value="San luis potosi">
+                <option value="Sinaloa">
+                <option value="Sonora">
+                <option value="Tabasco">
+                <option value="Tamaulipas">
+                <option value="Tlaxcala">
+                <option value="Veracruz">
+                <option value="Yucatan">
+                <option value="Zacatecas">  
+            </datalist><br><br>
+
+            <label for="cp">Codigo postal</label><br>
+            <input type="number" id="cp" name="cp" pattern="[0-9]5"><br><br>
+
+            <label for="direccion">Direccion completa</label><br>
+            <input type="text" id="direccion" name="direccion"><br><br>
+
+            <label for="fecha1">Fecha de entrega</label><br>
+            <input type="date" id="fecha1" name="fecha1"><br><br>
+
+            <label for="paqueteria">Elige la paqueteria</label><br><br>
+            <select id="paqueteria" name="paqueteria">
+                <datalist id="paqueteria">
+                    <option value="UBER">UBER</option>
+                    <option value="DIDI">DIDI</option>
+                    <option value="DHL">DHL</option>
+                    <option value="FEDEX">FEDEX</option>
+                    <option value="ESTAFETA">ESTAFETA</option>
+</select><br><br><br>
+        <input type="reset"><br><br>
+        <input type="submit"><br>
+    
+    </div>   
+    </section>
+</form>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <p>&copy; Carlos David Vazquez Herrera. Launch_X</p>
+        </div>
+    </footer>
 </body>
 </html>

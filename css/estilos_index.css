@@ -175,9 +175,10 @@ header a:hover{
 
 #envios button{
     color: rgb(255, 255, 255);
+    margin-bottom: 100px;
 }
 footer .container{
-    height: 80px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
