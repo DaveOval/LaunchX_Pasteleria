@@ -83,7 +83,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     color: rgb(255, 255, 255);
     background-image:linear-gradient(
         0deg,
