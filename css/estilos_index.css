@@ -181,12 +181,9 @@ header a:hover{
 }
 #envios .linkmap{
     background-color: #341021;
+    padding: 3px;
 }
 
-#envios button{
-    color: rgb(255, 255, 255);
-    margin-bottom: 100px;
-}
 footer .container{
     height: 110px;
     display: flex;
