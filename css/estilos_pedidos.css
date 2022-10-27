@@ -21,6 +21,10 @@ input{
     text-align: center;
     font-size: 1.5em;
 }
+input:focus{
+    background-color:#faf2f6;
+    border-bottom: 10px solid #341021;
+}
 button {
     font-size: 1.5em;
     font-weight: bold;
