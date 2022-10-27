@@ -16,7 +16,11 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
-
+input{
+    caret-color:#341021;
+    text-align: center;
+    font-size: 1.5em;
+}
 button {
     font-size: 1.5em;
     font-weight: bold;

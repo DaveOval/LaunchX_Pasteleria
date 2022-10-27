@@ -129,17 +129,17 @@
         <div class="container">
             
             <h3>Rellena los siguientes datos<br>para completar tu orden.</h3>
-            <label class="input"label for="name">Nombre(s)</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+            <label class="input"label for="name" >Nombre(s)</label><br>
+            <input type="text" id="name" name="name" placeholder="Juan" required><br><br>
 
             <label label for="name2">Apellido(s)</label><br>
-            <input type="text" id="name2" name="name2" required><br><br>
+            <input type="text" id="name2" name="name2" placeholder="Perez" required><br><br>
 
             <label for="tel1">Teléfono</label><br>
-            <input type="tel" id="tel1" name="tel1" maxlength="10" required><br><br>
+            <input type="tel" id="tel1" name="tel1" placeholder="1234567890" maxlength="10" required><br><br>
 
             <label for="email">Email</label><br>
-            <input type="email" id="email"  required><br><br>
+            <input type="email" id="email"  placeholder="Juan@email.com" required><br><br>
 
             <label for="estado">Elige tu estado</label><br>
             <input list="estado">
@@ -179,10 +179,10 @@
             </datalist><br><br>
 
             <label for="cp">Codigo postal</label><br>
-            <input type="number" id="cp" name="cp" pattern="[0-9]5" required><br><br>
+            <input type="number" id="cp" name="cp" pattern="[0-9]5" placeholder="12345"required><br><br>
 
             <label for="direccion">Direccion completa</label><br>
-            <input type="text" id="direccion" name="direccion" required><br><br>
+            <input type="text" id="direccion" name="direccion" placeholder="Calle, numero, colonia" required><br><br>
 
             <label for="fecha1">Fecha de entrega</label><br>
             <input type="date" id="fecha1" name="fecha1" required><br><br>
@@ -198,7 +198,7 @@
                     <option value="ESTAFETA">ESTAFETA</option>
 </select><br><br><br>
         <input class="completar" type="reset" value="Reiniciar formulario"><br><br>
-        <input class="completar "type="submit" value="Enviar" onclick="alert('Si completaste los datos correctamente, se te enviaron los datos al correo para proceder con el pago del pedido');"><br>
+        <input class="completar "type="submit" value="Enviar"><br>
     
     </div>   
     </section>
