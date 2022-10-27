@@ -21,6 +21,16 @@ hr{
     background-color: #341021;
     padding: 1px;
 }
+.button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    background-color: #4b1d33;
+}
 
 button{
     font-size: 1.5em;
@@ -160,7 +170,7 @@ header a:hover{
     text-align: center;
     background-color: #e1d9e0;
     height: auto;
-    /*padding-bottom: 300px; */
+    padding-bottom: 30px;
 }
 #envios h3 {
     font-size: larger;
