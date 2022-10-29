@@ -335,9 +335,24 @@ header a:hover {
     color: rgb(255, 255, 255);
     background-color: #4b1d33;
 }
-#formularioEnvios{
-    color: #ffffff;
+#extras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    flex-direction: column;
+    color: #e1d9df;
+   
+}
+#colorPastel {
+    size: 100px;
+    border: none;
+}
+
+#formularioEnvios{
+    color:#000000;
+    text-align: center;
+    background-color: #e1d9df;
 }
 #formularioEnvios input{
     border-radius: 20px;
