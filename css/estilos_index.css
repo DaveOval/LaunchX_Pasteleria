@@ -161,6 +161,60 @@ header a:hover{
     padding: 100px 12px;
     padding-top: 50px;
 }
+#menuAdornoss {
+    background-color: #e1d9e0;
+    text-align: center;
+
+}
+
+#menuAdornos .container {
+    padding: 0px 12px;
+    padding-top: 100px;
+}
+
+#menuAdornos h2 {
+    padding-top: 20px;
+}
+
+#menuAdornoss p {
+    display: none;
+    font-size: 3.2em;
+}
+
+#menuAdornos .carta2 {
+    background-position: center center;
+    background-size: cover;
+    color: rgb(201, 210, 213);
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.carta2:first-child {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../img/pastel-floral.jpg");
+
+}
+
+.carta2:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../img/pastel-drip.jpg");
+}
+
+
+.carta2:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../img/pastel-3d.jpg");
+}
+
+#menuAdornos .container {
+    text-align: center;
+    padding: 100px 12px;
+    padding-top: 50px;
+}
 
 #envios {
     display: flex;
@@ -251,5 +305,29 @@ footer .container{
     #sabores .container{
         text-align: initial;
     }
+        #menuAdornos .sabores {
+            display: flex;
+            justify-content: center;
+        }
     
+        #menuAdornos p {
+            display: block;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+    
+        #menuAdornos h2 {
+            margin-top: 0;
+            text-align: center;
+            color: #e1d9df;
+        }
+    
+        #menuAdornos .carta2 {
+            padding: 200px;
+            background-size: cover;
+        }
+    
+        #adornos .container {
+            text-align: initial;
+        }
 }
